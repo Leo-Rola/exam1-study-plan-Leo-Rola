@@ -1,0 +1,7 @@
+.App.container-fluid {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  background-color:rgb(240, 249, 255);
+  min-height: 100vh
+}

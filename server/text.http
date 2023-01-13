@@ -1,0 +1,13 @@
+GET http://localhost:3001 HTTP/1.1
+
+###
+
+GET http://localhost:3001/api/courses HTTP/1.1
+###
+
+PUT http://localhost:3001/api/courses/delete HTTP/1.1
+content-type: application/json
+
+{
+    "studentID": 100001
+}
